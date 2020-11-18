@@ -47,6 +47,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A81EF2602565ABB20089F8DB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A8D995652563F2AE00769E46 /* Main.storyboard */,
+				A8D9956A2563F2B100769E46 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A81EF2622565ABDC0089F8DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8D99585256425FE00769E46 /* Player.swift */,
+				A8D9958B25645EF100769E46 /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A81EF2632565ABED0089F8DB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A832E9CF25655B7A0061B5BE /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A81EF2642565ABFA0089F8DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9957C2563F60D00769E46 /* PlayersViewController.swift */,
+				A8D9958125640F9000769E46 /* PlayerDitailsViewController.swift */,
+				A8D9958825645E7000769E46 /* TeamDitailsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A81EF2652565AC2D0089F8DB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A8D9955F2563F2AD00769E46 /* AppDelegate.swift */,
+				A8D995612563F2AE00769E46 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		A8D995532563F2AD00769E46 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +111,13 @@
 		A8D9955E2563F2AD00769E46 /* NBAPlayers */ = {
 			isa = PBXGroup;
 			children = (
-				A8D9955F2563F2AD00769E46 /* AppDelegate.swift */,
-				A8D995612563F2AE00769E46 /* SceneDelegate.swift */,
-				A8D9957C2563F60D00769E46 /* PlayersViewController.swift */,
-				A8D9958125640F9000769E46 /* PlayerDitailsViewController.swift */,
-				A8D9958825645E7000769E46 /* TeamDitailsViewController.swift */,
-				A8D995652563F2AE00769E46 /* Main.storyboard */,
+				A81EF2642565ABFA0089F8DB /* Views */,
+				A81EF2632565ABED0089F8DB /* Network */,
+				A81EF2622565ABDC0089F8DB /* Models */,
+				A81EF2602565ABB20089F8DB /* Storyboards */,
+				A81EF2652565AC2D0089F8DB /* Delegates */,
 				A8D995682563F2B100769E46 /* Assets.xcassets */,
-				A8D9956A2563F2B100769E46 /* LaunchScreen.storyboard */,
 				A8D9956D2563F2B100769E46 /* Info.plist */,
-				A8D99585256425FE00769E46 /* Player.swift */,
-				A8D9958B25645EF100769E46 /* Team.swift */,
-				A832E9CF25655B7A0061B5BE /* ApiClient.swift */,
 			);
 			path = NBAPlayers;
 			sourceTree = "<group>";
@@ -313,6 +353,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.nskn.NBAPlayers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -332,6 +373,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.nskn.NBAPlayers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
