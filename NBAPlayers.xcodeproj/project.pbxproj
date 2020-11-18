@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A832E9D025655B7A0061B5BE /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A832E9CF25655B7A0061B5BE /* ApiClient.swift */; };
 		A8D995602563F2AE00769E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D9955F2563F2AD00769E46 /* AppDelegate.swift */; };
 		A8D995622563F2AE00769E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D995612563F2AE00769E46 /* SceneDelegate.swift */; };
 		A8D995672563F2AE00769E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D995652563F2AE00769E46 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A832E9CF25655B7A0061B5BE /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		A8D9955C2563F2AD00769E46 /* NBAPlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAPlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D9955F2563F2AD00769E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8D995612563F2AE00769E46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				A8D9956D2563F2B100769E46 /* Info.plist */,
 				A8D99585256425FE00769E46 /* Player.swift */,
 				A8D9958B25645EF100769E46 /* Team.swift */,
+				A832E9CF25655B7A0061B5BE /* ApiClient.swift */,
 			);
 			path = NBAPlayers;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				A8D9957D2563F60D00769E46 /* PlayersViewController.swift in Sources */,
 				A8D995602563F2AE00769E46 /* AppDelegate.swift in Sources */,
 				A8D9958C25645EF100769E46 /* Team.swift in Sources */,
+				A832E9D025655B7A0061B5BE /* ApiClient.swift in Sources */,
 				A8D9958925645E7000769E46 /* TeamDitailsViewController.swift in Sources */,
 				A8D9958225640F9000769E46 /* PlayerDitailsViewController.swift in Sources */,
 				A8D99586256425FE00769E46 /* Player.swift in Sources */,
